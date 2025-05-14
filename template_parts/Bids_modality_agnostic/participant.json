@@ -18,7 +18,7 @@
             "value": "",
             "group_id": 2,
             "position": 5,
-            "description": "GDPR !!!. In years or months. Ex: '42 or 0.4'"
+            "description": "Age in years or months, e.g., '42' or '0.4'"
         },
         "sex": {
             "type": "radio",
@@ -29,7 +29,7 @@
             ],
             "group_id": 2,
             "position": 7,
-            "description": "GDPR"
+            "description": "participant's sex  e.g., 'F', 'M', or 'Others'"
         },
         "group": {
             "type": "text",
@@ -58,7 +58,8 @@
             "type": "text",
             "value": "",
             "group_id": 2,
-            "position": 3
+            "position": 3,
+            "description": "The species of the subject (e.g., 'homo sapiens', 'mus musculu')"
         },
         "Modality": {
             "type": "select",
@@ -80,12 +81,16 @@
             "description": "The modalities recorded",
             "allow_multi_values": true,
             "blank_value_on_duplicate": true
+
+
         },
         "BirthDate": {
             "type": "datetime-local",
             "value": "",
             "group_id": 2,
-            "position": 6
+            "position": 6,
+            "description": "subject  birth date  e.g., '2023-10-01T00:00:00' or '2023-10-01'"
+
         },
         "Subject ID": {
             "type": "text",
@@ -103,7 +108,7 @@
             ],
             "group_id": 2,
             "position": 8,
-            "description": "GDPR"
+            "description": "subject's handedness  e.g., 'left', 'right', or 'ambidextrous'"
         },
         "Subject GUID": {
             "type": "text",
@@ -120,7 +125,7 @@
             "value": "",
             "group_id": 2,
             "position": 11,
-            "description": "Ex: '53.5 or 55'"
+            "description": " subject HeadCircumference Ex: '53.5 or 55'"
         }
     }
 }
