@@ -1,0 +1,28 @@
+{
+    "elabftw": {
+        "extra_fields_groups": [
+            {
+                "id": 3,
+                "name": "GENERIC_BIDS_SESSION"
+            }
+        ]
+    },
+    "extra_fields": {
+        "session_id": {
+            "type": "text",
+            "value": "",
+            "group_id": 3,
+            "position": 0,
+            "required": true,
+            "description": "Ex: '01 or predrug or 20231206'"
+        },
+        "Session duration": {
+            "type": "number",
+            "value": "91",
+            "group_id": 3,
+            "position": "3",
+            "description": "The duration of the session [in minutes]",
+            "blank_value_on_duplicate": true
+        }
+    }
+}

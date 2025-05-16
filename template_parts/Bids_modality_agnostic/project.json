@@ -1,0 +1,82 @@
+{
+    "elabftw": {
+        "extra_fields_groups": [
+            {
+                "id": 1,
+                "name": "GENERIC_BIDS_PROJECT"
+            }
+        ]
+    },
+    "extra_fields": {
+        "Authors": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 1,
+            "description": "List of individuals who contributed to the creation/curation of the dataset."
+        },
+        "DatasetDOI": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 2,
+            "description": "The Digital Object Identifier of the dataset (not the corresponding paper)."
+        },
+        "DatasetType": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 3,
+            "description": "The interpretation of the dataset. For backwards compatibility, the default value is \"raw\".  Must be one of: \"raw\", \"derivative\"."
+        },
+        "GeneratedBy": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 4,
+            "description": "Used to specify provenance of the dataset."
+        },
+        "DatasetLinks": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 5,
+            "description": "Used to map a given <dataset-name> from a BIDS URI of the form bids:"
+        },
+        "Experimenter 1": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 7,
+            "description": " Ex: 'Odile De Ray'"
+        },
+        "Experimenter 2": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 8,
+            "description": " Ex: 'Odile De Ray'"
+        },
+        "Experimenter 3": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 9,
+            "description": " Ex: 'Odile De Ray'"
+        },
+        "Experiment name": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 6,
+            "description": "En fran\u00e7ais: nom de la manip incluant X sujets / Experiment name including around X subjects"
+        },
+        "Ethical Protocol Identifier": {
+            "type": "text",
+            "value": "defaut format in '5X-16X-vX'",
+            "group_id": 1,
+            "position": 0,
+            "description": "The official ethical protocol id "
+        }
+    }
+}
