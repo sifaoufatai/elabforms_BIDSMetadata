@@ -1,0 +1,70 @@
+{
+    "elabftw": {
+        "extra_fields_groups": [
+            {
+                "id": 1,
+                "name": "Run5"
+            }
+        ]
+    },
+    "extra_fields": {
+        "EventsSet5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 4,
+            "description": "Details about the events associated with this set."
+        },
+        "RunNumber5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 0
+        },
+        "StartTime5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 5
+        },
+        "RunComment5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 6,
+            "description": "Comment about the subject behavior during the run."
+        },
+        "Acquisition5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 3,
+            "description": "Details about the acquisition process."
+        },
+        "DataFilePath5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "description": "the path where the Protocole 's file is saved"
+        },
+        "ImageFilePath5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "description": "This field will store the name of an image file or a link to an image"
+        },
+        "AnalyseFilePath5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "description": "This field will store the name of the analysis file"
+        },
+        "TaskDescription5": {
+            "type": "text",
+            "value": "",
+            "group_id": 1,
+            "position": 2,
+            "description": "Description of the task"
+        }
+    }
+}
