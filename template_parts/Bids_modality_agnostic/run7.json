@@ -2,69 +2,66 @@
     "elabftw": {
         "extra_fields_groups": [
             {
-                "id": 1,
-                "name": "Run7"
+                "id": 8,
+                "name": "Run07"
             }
         ]
     },
     "extra_fields": {
-        "EventsSet7": {
+        "RunNumber07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
-            "position": 4,
-            "description": "Details about the events associated with this set."
-        },
-        "RunNumber7": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
+            "group_id": 8,
             "position": 0
         },
-        "StartTime7": {
+        "TaskName07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
-            "position": 5
+            "group_id": 8,
+            "position": 1,
+            "required": true,
+            "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
         },
-        "RunComment7": {
+        "TaskDescription07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
-            "position": 6,
-            "description": "Comment about the subject behavior during the run."
+            "group_id": 8,
+            "position": 2,
+            "description": "Description of the task"
         },
-        "Acquisition7": {
+        "Acquisition07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
+            "group_id": 8,
             "position": 3,
             "description": "Details about the acquisition process."
         },
-        "DataFilePath7": {
+        "StartTime07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
-            "description": "the path where the Protocole 's file is saved"
+            "group_id": 8,
+            "position": 4
         },
-        "ImageFilePath7": {
+        "EventsSet07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
-            "description": "This field will store the name of an image file or a link to an image"
+            "group_id": 8,
+            "position": 5,
+            "description": "Details about the events associated with this set."
         },
-        "AnalyseFilePath7": {
+        "DataFilePath07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
-            "description": "This field will store the name of the analysis file"
+            "group_id": 8,
+            "position": 6,
+            "description": "The path where the protocol's file is saved"
         },
-        "TaskDescription7": {
+        "RunComment07": {
             "type": "text",
             "value": "",
-            "group_id": 1,
-            "position": 2,
-            "description": "Description of the task"
+            "group_id": 8,
+            "position": 7,
+            "description": "Comment about the subject behavior during the run."
         }
     }
 }

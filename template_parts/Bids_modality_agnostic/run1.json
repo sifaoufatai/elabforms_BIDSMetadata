@@ -1,70 +1,70 @@
 {
-    "elabftw": {
-        "extra_fields_groups": [
-            {
-                "id": 1,
-                "name": "Run1"
-            }
-        ]
+  "elabftw": {
+    "display_main_text": true,
+    "extra_fields_groups": [
+      {
+        "id": 2,
+        "name": "Run01 "
+      }
+    ]
+  },
+  "extra_fields": {
+
+    "RunNumber01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 0
     },
-    "extra_fields": {
-        "EventsSet1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 4,
-            "description": "Details about the events associated with this set."
-        },
-        "RunNumber1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 0
-        },
-        "StartTime1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 5
-        },
-        "RunComment1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 6,
-            "description": "Comment about the subject behavior during the run."
-        },
-        "Acquisition1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 3,
-            "description": "Details about the acquisition process."
-        },
-        "DataFilePath1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "description": "the path where the Protocole 's file is saved"
-        },
-        "ImageFilePath1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "description": "This field will store the name of an image file or a link to an image"
-        },
-        "AnalyseFilePath1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "description": "This field will store the name of the analysis fil"
-        },
-        "TaskDescription1": {
-            "type": "text",
-            "value": "",
-            "group_id": 1,
-            "position": 2,
-            "description": "Description of the task"
-        }
+    "TaskName01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 1,
+      "required": true,
+      "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
+    },
+    "TaskDescription01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 2,
+      "description": "Description of the task"
+    },
+    "Acquisition01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 3,
+      "description": "Details about the acquisition process."
+    },
+    "StartTime01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 4
+    },
+    "EventsSet01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 5,
+      "description": "Details about the events associated with this set."
+    },
+    "DataFilePath01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 6,
+      "description": "the path where the Protocole 's file is saved"
+    },
+    "RunComment01": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 7,
+      "description": "Comment about the subject behavior during the run."
     }
+
+  }
 }

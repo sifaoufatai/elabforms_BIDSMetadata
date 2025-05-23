@@ -9,6 +9,12 @@
     ]
   },
   "extra_fields": {
+      "RunNumber": {
+      "type": "text",
+      "value": "",
+      "group_id": 2,
+      "position": 2
+    },
     "TaskName": {
       "type": "text",
       "value": "",
@@ -17,12 +23,14 @@
       "required": true,
       "description": "Code name of the task (no space and only alphanumeric characters).\n Ex: 'rest or facesnback or headnodding'"
     },
-    "RunNumber": {
+       "TaskDescription": {
       "type": "text",
       "value": "",
       "group_id": 2,
-      "position": 2
+      "position": 1,
+      "description": "Description of the task"
     },
+
     "StartTime": {
       "type": "text",
       "value": "",
@@ -34,13 +42,7 @@
       "group_id": 2,
       "position": 3,
       "description": "Comment about the subject behavior during the run."
-    },
-    "TaskDescription": {
-      "type": "text",
-      "value": "",
-      "group_id": 2,
-      "position": 1,
-      "description": "Description of the task"
     }
+
   }
 }
